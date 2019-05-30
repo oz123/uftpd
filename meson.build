@@ -18,7 +18,5 @@ lite = dependency('libite')
 libuev = dependency('libuev')
 
 executable('uftpd', src,
-           include_directories:
-           include_directories('src'),
 	   dependencies : [lite, libuev],
 	   )
